@@ -1,0 +1,14 @@
+BEGIN:VCARD
+VERSION:3.0
+N:;Angiología y Cirugía Vascular - Vithas Sevilla;;;
+FN:Angiología y Cirugía Vascular - Vithas Sevilla
+ORG:Hospital Vithas Sevilla;Unidad de Angiología y Cirugía Vascular
+TEL;TYPE=WORK,VOICE:+34954464025
+item1.EMAIL;TYPE=INTERNET:drsanchezvithas@gmail.com
+item1.X-ABLabel:Dr. Sánchez Rodríguez
+item2.EMAIL;TYPE=INTERNET:arsg@drsanchezguzmanvascular.es
+item2.X-ABLabel:Dr. Antonio R. Sánchez Guzmán
+ADR;TYPE=WORK:;Consulta nº 140\, 1ª planta;Hospital Vithas Sevilla;Castilleja de la Cuesta;Sevilla;41950;España
+URL:https://josevas72.github.io/vascular-vithas/
+NOTE:Consulta nº 140\, primera planta. Cita previa por teléfono: martes y miércoles 17:00-20:00\, jueves 9:30-12:00. Consultas: Dr. Antonio R. Sánchez Guzmán (martes y miércoles)\, Dr. Sánchez Rodríguez (miércoles)\, Dr. Bohórquez (martes y jueves).
+END:VCARD

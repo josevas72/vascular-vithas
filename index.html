@@ -1,0 +1,130 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Angiología y Cirugía Vascular · Vithas Sevilla</title>
+<meta name="description" content="Unidad de Angiología y Cirugía Vascular del Hospital Vithas Sevilla. Cita previa: 954 46 40 25.">
+<meta name="theme-color" content="#0f4c5c">
+<link rel="icon" href="logo-arsg.png">
+<link rel="apple-touch-icon" href="logo-arsg.png">
+<style>
+  :root{
+    --bg:#f3f6f7; --card:#ffffff; --ink:#14232a; --muted:#5b6b72;
+    --brand:#0f4c5c; --line:#e2e8ea; --btn-ink:#ffffff; --chip:#e8f1f3;
+  }
+  @media (prefers-color-scheme: dark){
+    :root{
+      --bg:#0d1417; --card:#162126; --ink:#e9f1f3; --muted:#9db0b6;
+      --brand:#3fa7bb; --line:#253238; --btn-ink:#06181d; --chip:#1f3138;
+    }
+  }
+  *{box-sizing:border-box}
+  html,body{margin:0}
+  body{
+    background:var(--bg); color:var(--ink);
+    font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
+    line-height:1.45; -webkit-font-smoothing:antialiased;
+    padding:max(16px,env(safe-area-inset-top)) 16px max(24px,env(safe-area-inset-bottom));
+  }
+  main{max-width:440px;margin:0 auto;position:relative}
+  .corner{
+    position:absolute;top:0;right:0;width:64px;padding:4px 5px;
+    background:#fff;border-radius:10px;border:1px solid var(--line);
+  }
+  .corner img{display:block;width:100%;height:auto}
+  header{text-align:center;padding:52px 8px 18px}
+
+
+  h1{font-size:22px;line-height:1.2;letter-spacing:-.01em;margin:0}
+  .sub{color:var(--muted);margin:6px 0 0;font-size:16px;font-weight:600}
+  .actions{display:grid;gap:10px;margin:6px 0 18px}
+  .btn{
+    display:flex;align-items:center;gap:14px;text-decoration:none;
+    padding:15px 18px;border-radius:16px;font-weight:600;font-size:17px;
+    background:var(--card);color:var(--ink);border:1px solid var(--line);
+  }
+  .btn.primary{background:var(--brand);color:var(--btn-ink);border-color:transparent}
+  .btn svg{flex:none}
+  .btn small{display:block;font-weight:400;font-size:14px;opacity:.8}
+  .card{background:var(--card);border:1px solid var(--line);border-radius:18px;padding:18px;margin-bottom:12px}
+  .card h2{font-size:13px;text-transform:uppercase;letter-spacing:.08em;color:var(--muted);margin:0 0 10px}
+  .row{display:flex;justify-content:space-between;align-items:center;gap:12px;padding:10px 0}
+  .row + .row{border-top:1px solid var(--line)}
+  .day{font-weight:600}
+  .doc-name{font-weight:600}
+  .doc-days{color:var(--muted);font-size:14px}
+  .mail{
+    flex:none;display:inline-flex;align-items:center;gap:6px;text-decoration:none;
+    background:var(--chip);color:var(--brand);font-weight:600;font-size:14px;
+    padding:8px 12px;border-radius:999px;
+  }
+  address{font-style:normal}
+  footer{text-align:center;color:var(--muted);font-size:13px;margin-top:20px}
+</style>
+</head>
+<body>
+<main>
+  <div class="corner"><img src="logo-arsg.png" alt="ARSG Vascular S.L."></div>
+
+  <header>
+    <h1>Unidad de Angiología y Cirugía Vascular</h1>
+    <p class="sub">Hospital Vithas Sevilla</p>
+  </header>
+
+  <div class="actions">
+    <a class="btn primary" href="tel:+34954464025">
+      <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3.1 19.5 19.5 0 0 1-6-6A19.8 19.8 0 0 1 2.1 4.2 2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7c.1 1 .4 1.9.7 2.8a2 2 0 0 1-.5 2.1L8 9.9a16 16 0 0 0 6 6l1.3-1.3a2 2 0 0 1 2.1-.4c.9.3 1.8.6 2.8.7a2 2 0 0 1 1.7 2Z"/></svg>
+      <span>Cita previa<small>954 46 40 25</small></span>
+    </a>
+    <a class="btn" href="vascular-vithas.vcf">
+      <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M19 8v6M22 11h-6"/></svg>
+      <span>Guardar contacto<small>Añadir a la agenda</small></span>
+    </a>
+    <a class="btn" id="mapa" href="https://www.google.com/maps/search/?api=1&amp;query=Hospital%20Vithas%20Sevilla%2C%20Castilleja%20de%20la%20Cuesta">
+      <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z"/><circle cx="12" cy="10" r="3"/></svg>
+      <span>Cómo llegar<small>Hospital Vithas Sevilla · 1ª planta, consulta 140</small></span>
+    </a>
+  </div>
+
+  <section class="card">
+    <h2>Horario de cita previa</h2>
+    <div class="row"><span class="day">Martes y miércoles</span><span>17:00 – 20:00</span></div>
+    <div class="row"><span class="day">Jueves</span><span>9:30 – 12:00</span></div>
+  </section>
+
+  <section class="card">
+    <h2>Consultas</h2>
+    <div class="row">
+      <div><div class="doc-name">Dr. Antonio R. Sánchez Guzmán</div><div class="doc-days">Martes y miércoles</div></div>
+      <a class="mail" href="mailto:arsg@drsanchezguzmanvascular.es">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m22 7-10 6L2 7"/></svg>Email</a>
+    </div>
+    <div class="row">
+      <div><div class="doc-name">Dr. José María Sánchez Rodríguez</div><div class="doc-days">Miércoles</div></div>
+      <a class="mail" href="mailto:drsanchezvithas@gmail.com">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m22 7-10 6L2 7"/></svg>Email</a>
+    </div>
+    <div class="row">
+      <div><div class="doc-name">Dr. Bohórquez</div><div class="doc-days">Martes y jueves</div></div>
+    </div>
+  </section>
+
+  <section class="card">
+    <h2>Dónde estamos</h2>
+    <address>
+      <strong>Consulta nº 140 · Primera planta</strong><br>
+      Hospital Vithas Sevilla<br>
+      41950 Castilleja de la Cuesta (Sevilla)
+    </address>
+  </section>
+
+  <footer>Unidad de Angiología y Cirugía Vascular · Hospital Vithas Sevilla</footer>
+</main>
+<script>
+  if (/iPhone|iPad|iPod/.test(navigator.userAgent) || (navigator.platform === 'MacIntel' && navigator.maxTouchPoints > 1)) {
+    document.getElementById('mapa').href = 'https://maps.apple.com/?q=Hospital%20Vithas%20Sevilla&address=41950%20Castilleja%20de%20la%20Cuesta%2C%20Sevilla';
+  }
+</script>
+</body>
+</html>
